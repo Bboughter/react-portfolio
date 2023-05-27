@@ -8,7 +8,7 @@ function NavigationBar({ handlePageChange }) {
     <nav className="nav"> 
       <ul>
         <li>
-          <a className="nav-item" onClick={() => handlePageChange('About Me')} href="#about-me">About Me</a> 
+          <a className="nav-item" onClick={() => handlePageChange('About Me')} href="#aboutme">About Me</a> 
         </li>
         <li>
           <a className="nav-item" onClick={() => handlePageChange('Portfolio')} href="#portfolio">Portfolio</a> 
