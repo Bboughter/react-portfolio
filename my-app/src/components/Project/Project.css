@@ -53,11 +53,11 @@
     }
   
     .project-links {
-      margin-top: 35px;
+      margin-top: 55px;
     }
   
     .project-links a {
-      color: black;
+      color: rgb(251, 243, 243);
     }
   
     .project-links a:hover {

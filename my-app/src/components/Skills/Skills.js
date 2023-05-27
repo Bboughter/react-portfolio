@@ -1,8 +1,9 @@
 import React from 'react';
+import './Skills.css';
 
 const Skills = () => {
     return (
-        <section className="about-me">
+        <section className="skills">
             <h2> Front-end Proficiencies </h2>
             <ul>
                 <li>HTML, CSS, JavaScript, React, Bootstrap, amongst others.</li>
