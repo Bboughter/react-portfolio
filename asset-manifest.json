@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.cc4a8a07.css",
+    "main.js": "/my-app/static/js/main.a8ed9846.js",
+    "static/media/habitTracker.png": "/my-app/static/media/habitTracker.8e32f5ae7125545ae878.png",
+    "static/media/headshot.jpg": "/my-app/static/media/headshot.e5c15c26cec65042ae32.jpg",
+    "static/media/LitList.png": "/my-app/static/media/LitList.eb1bba78096d2da8390c.png",
+    "static/media/ChatterBox.png": "/my-app/static/media/ChatterBox.42135c1c12f9439c8c9d.png",
+    "static/media/employeeTracker.png": "/my-app/static/media/employeeTracker.ac08e1fe37ece4764f3a.png",
+    "static/media/workDayScheduler.png": "/my-app/static/media/workDayScheduler.a2665cc68872ff73bc0f.png",
+    "index.html": "/my-app/index.html",
+    "main.cc4a8a07.css.map": "/my-app/static/css/main.cc4a8a07.css.map",
+    "main.a8ed9846.js.map": "/my-app/static/js/main.a8ed9846.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc4a8a07.css",
+    "static/js/main.a8ed9846.js"
+  ]
+}
