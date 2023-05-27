@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  /* styles for the navigation links */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #352009;
+    padding: 10px 10px 0 0;
+  }
+  
+  nav a {
+    color: #140404;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    color: #fff;
+  }
+  
+  /* styles for the main content area581c0 */
+  main {
+    margin: 20px;
+  }
+  
+  /* styles for the header */
+  header {
+    text-align: flex-start;
+    margin: 25px;
+  }
+  
+  header h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #2e288e;
+    font-weight: bolder;
+  }
+  
+  /* styles for the footer */
+  footer {
+    background-color: #2e288e;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* styles for the not found page */
+  .not-found {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .not-found h2 {
+    font-size: 36px;
+  }
+  
+  .not-found p {
+    font-size: 18px;
+  }
+
+  .App {
+    background-color: #157ec4;
+    color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }

@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+React.useEffect(() => {
+  const handleRouteChange = () => {
+    setRoute(window.location.pathname);
+  };
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+  window.addEventListener('popstate', handleRouteChange);
+
+  return () => {
+    window.removeEventListener('popstate', handleRouteChange);
+  };
+}, []);
+
+const renderRoute = () => {
+  switch (route) {
+    case '/':
+      return <AboutMe />;
+    case '/portfolio':
+      return <Portfolio />;
+    case '/contact':
+      return <Contact />;
+    case '/skills':
+      return <Skills />;
+    default:
+      return <AboutMe />;
+  }
+};
+
+return (
+  <div className="App">
+    <Header />
+    <main>
+      {renderRoute()}
+    </main>
+    <Footer />
+  </div>
+);
+
 
 export default App;
+
