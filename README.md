@@ -16,6 +16,8 @@ This is a personal portfolio created using React. The page contains an about me 
 
 Once the user clones the respository, the user will need to run the command 'npm i' in order to install the necessary dependencies. The user will then need to run 'npm start' to view the webpage.
 
+This portfolio can be viewed at https://bboughter.github.io/react-portfolio/.
+
 ## Usage
 
 Once the user runs the command to start the webpage, the user will be presented with my homepage which contains an about me section and a picture of me. There is also a navigation bar at the top of the page in which the user can choose to navigate to the contact page, skills, and projects. The resume button in the navigation bar will redirect you to my present resume. The footer contains the links to my GitHub and LinkedIn.
